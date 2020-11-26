@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD734DFF2564B3570086A365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734DFE2564B3570086A365 /* AppDelegate.swift */; };
+		AD734E012564B3570086A365 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AD734E002564B3570086A365 /* art.scnassets */; };
+		AD734E032564B3570086A365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E022564B3570086A365 /* ViewController.swift */; };
+		AD734E062564B3570086A365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD734E042564B3570086A365 /* Main.storyboard */; };
+		AD734E082564B35B0086A365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD734E072564B35B0086A365 /* Assets.xcassets */; };
+		AD734E0B2564B35B0086A365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD734E092564B35B0086A365 /* LaunchScreen.storyboard */; };
+		AD734E162564B35C0086A365 /* cognitive_dissonance_AR_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E152564B35C0086A365 /* cognitive_dissonance_AR_demoTests.swift */; };
+		AD734E212564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E202564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.swift */; };
+		AD734E402564CBD10086A365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E022564B3570086A365 /* ViewController.swift */; };
+		AD734E442564CBD10086A365 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E022564B3570086A365 /* ViewController.swift */; };
+		AD734E4C2564D2300086A365 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E4B2564D2300086A365 /* Mask.swift */; };
+		AD734E542564D3910086A365 /* VirtualContentUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E532564D3910086A365 /* VirtualContentUpdater.swift */; };
+		AD734E682564D9DD0086A365 /* VirtualFaceContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD734E672564D9DD0086A365 /* VirtualFaceContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD734E122564B35C0086A365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD734DF32564B3570086A365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD734DFA2564B3570086A365;
+			remoteInfo = cognitive_dissonance_AR_demo;
+		};
+		AD734E1D2564B35C0086A365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD734DF32564B3570086A365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD734DFA2564B3570086A365;
+			remoteInfo = cognitive_dissonance_AR_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD734DFB2564B3570086A365 /* cognitive_dissonance_AR_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cognitive_dissonance_AR_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD734DFE2564B3570086A365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD734E002564B3570086A365 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AD734E022564B3570086A365 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		AD734E052564B3570086A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD734E072564B35B0086A365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD734E0A2564B35B0086A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD734E0C2564B35B0086A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD734E112564B35C0086A365 /* cognitive_dissonance_AR_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognitive_dissonance_AR_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD734E152564B35C0086A365 /* cognitive_dissonance_AR_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitive_dissonance_AR_demoTests.swift; sourceTree = "<group>"; };
+		AD734E172564B35C0086A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD734E1C2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cognitive_dissonance_AR_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD734E202564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cognitive_dissonance_AR_demoUITests.swift; sourceTree = "<group>"; };
+		AD734E222564B35C0086A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD734E4B2564D2300086A365 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		AD734E532564D3910086A365 /* VirtualContentUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualContentUpdater.swift; sourceTree = "<group>"; };
+		AD734E672564D9DD0086A365 /* VirtualFaceContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualFaceContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD734DF82564B3570086A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E0E2564B35C0086A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E192564B35C0086A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD734DF22564B3570086A365 = {
+			isa = PBXGroup;
+			children = (
+				AD734DFD2564B3570086A365 /* cognitive_dissonance_AR_demo */,
+				AD734E142564B35C0086A365 /* cognitive_dissonance_AR_demoTests */,
+				AD734E1F2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests */,
+				AD734DFC2564B3570086A365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD734DFC2564B3570086A365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD734DFB2564B3570086A365 /* cognitive_dissonance_AR_demo.app */,
+				AD734E112564B35C0086A365 /* cognitive_dissonance_AR_demoTests.xctest */,
+				AD734E1C2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD734DFD2564B3570086A365 /* cognitive_dissonance_AR_demo */ = {
+			isa = PBXGroup;
+			children = (
+				AD734DFE2564B3570086A365 /* AppDelegate.swift */,
+				AD734E002564B3570086A365 /* art.scnassets */,
+				AD734E022564B3570086A365 /* ViewController.swift */,
+				AD734E042564B3570086A365 /* Main.storyboard */,
+				AD734E072564B35B0086A365 /* Assets.xcassets */,
+				AD734E672564D9DD0086A365 /* VirtualFaceContent.swift */,
+				AD734E092564B35B0086A365 /* LaunchScreen.storyboard */,
+				AD734E532564D3910086A365 /* VirtualContentUpdater.swift */,
+				AD734E4B2564D2300086A365 /* Mask.swift */,
+				AD734E0C2564B35B0086A365 /* Info.plist */,
+			);
+			path = cognitive_dissonance_AR_demo;
+			sourceTree = "<group>";
+		};
+		AD734E142564B35C0086A365 /* cognitive_dissonance_AR_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD734E152564B35C0086A365 /* cognitive_dissonance_AR_demoTests.swift */,
+				AD734E172564B35C0086A365 /* Info.plist */,
+			);
+			path = cognitive_dissonance_AR_demoTests;
+			sourceTree = "<group>";
+		};
+		AD734E1F2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD734E202564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.swift */,
+				AD734E222564B35C0086A365 /* Info.plist */,
+			);
+			path = cognitive_dissonance_AR_demoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD734DFA2564B3570086A365 /* cognitive_dissonance_AR_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD734E252564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demo" */;
+			buildPhases = (
+				AD734DF72564B3570086A365 /* Sources */,
+				AD734DF82564B3570086A365 /* Frameworks */,
+				AD734DF92564B3570086A365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cognitive_dissonance_AR_demo;
+			productName = cognitive_dissonance_AR_demo;
+			productReference = AD734DFB2564B3570086A365 /* cognitive_dissonance_AR_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD734E102564B35C0086A365 /* cognitive_dissonance_AR_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD734E282564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demoTests" */;
+			buildPhases = (
+				AD734E0D2564B35C0086A365 /* Sources */,
+				AD734E0E2564B35C0086A365 /* Frameworks */,
+				AD734E0F2564B35C0086A365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD734E132564B35C0086A365 /* PBXTargetDependency */,
+			);
+			name = cognitive_dissonance_AR_demoTests;
+			productName = cognitive_dissonance_AR_demoTests;
+			productReference = AD734E112564B35C0086A365 /* cognitive_dissonance_AR_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD734E1B2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD734E2B2564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demoUITests" */;
+			buildPhases = (
+				AD734E182564B35C0086A365 /* Sources */,
+				AD734E192564B35C0086A365 /* Frameworks */,
+				AD734E1A2564B35C0086A365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD734E1E2564B35C0086A365 /* PBXTargetDependency */,
+			);
+			name = cognitive_dissonance_AR_demoUITests;
+			productName = cognitive_dissonance_AR_demoUITests;
+			productReference = AD734E1C2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD734DF32564B3570086A365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					AD734DFA2564B3570086A365 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
+					};
+					AD734E102564B35C0086A365 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AD734DFA2564B3570086A365;
+					};
+					AD734E1B2564B35C0086A365 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = AD734DFA2564B3570086A365;
+					};
+				};
+			};
+			buildConfigurationList = AD734DF62564B3570086A365 /* Build configuration list for PBXProject "cognitive_dissonance_AR_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD734DF22564B3570086A365;
+			productRefGroup = AD734DFC2564B3570086A365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD734DFA2564B3570086A365 /* cognitive_dissonance_AR_demo */,
+				AD734E102564B35C0086A365 /* cognitive_dissonance_AR_demoTests */,
+				AD734E1B2564B35C0086A365 /* cognitive_dissonance_AR_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD734DF92564B3570086A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD734E012564B3570086A365 /* art.scnassets in Resources */,
+				AD734E0B2564B35B0086A365 /* LaunchScreen.storyboard in Resources */,
+				AD734E082564B35B0086A365 /* Assets.xcassets in Resources */,
+				AD734E062564B3570086A365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E0F2564B35C0086A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E1A2564B35C0086A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD734DF72564B3570086A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD734E032564B3570086A365 /* ViewController.swift in Sources */,
+				AD734E682564D9DD0086A365 /* VirtualFaceContent.swift in Sources */,
+				AD734DFF2564B3570086A365 /* AppDelegate.swift in Sources */,
+				AD734E4C2564D2300086A365 /* Mask.swift in Sources */,
+				AD734E542564D3910086A365 /* VirtualContentUpdater.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E0D2564B35C0086A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD734E402564CBD10086A365 /* ViewController.swift in Sources */,
+				AD734E162564B35C0086A365 /* cognitive_dissonance_AR_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD734E182564B35C0086A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD734E442564CBD10086A365 /* ViewController.swift in Sources */,
+				AD734E212564B35C0086A365 /* cognitive_dissonance_AR_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD734E132564B35C0086A365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD734DFA2564B3570086A365 /* cognitive_dissonance_AR_demo */;
+			targetProxy = AD734E122564B35C0086A365 /* PBXContainerItemProxy */;
+		};
+		AD734E1E2564B35C0086A365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD734DFA2564B3570086A365 /* cognitive_dissonance_AR_demo */;
+			targetProxy = AD734E1D2564B35C0086A365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD734E042564B3570086A365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD734E052564B3570086A365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD734E092564B35B0086A365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD734E0A2564B35B0086A365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD734E232564B35C0086A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD734E242564B35C0086A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD734E262564B35C0086A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG3N7QB6HB;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD734E272564B35C0086A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG3N7QB6HB;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD734E292564B35C0086A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cognitive_dissonance_AR_demo.app/cognitive_dissonance_AR_demo";
+			};
+			name = Debug;
+		};
+		AD734E2A2564B35C0086A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cognitive_dissonance_AR_demo.app/cognitive_dissonance_AR_demo";
+			};
+			name = Release;
+		};
+		AD734E2C2564B35C0086A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cognitive_dissonance_AR_demo;
+			};
+			name = Debug;
+		};
+		AD734E2D2564B35C0086A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cognitive_dissonance_AR_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ryo.cognitive-dissonance-AR-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cognitive_dissonance_AR_demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD734DF62564B3570086A365 /* Build configuration list for PBXProject "cognitive_dissonance_AR_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD734E232564B35C0086A365 /* Debug */,
+				AD734E242564B35C0086A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD734E252564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD734E262564B35C0086A365 /* Debug */,
+				AD734E272564B35C0086A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD734E282564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD734E292564B35C0086A365 /* Debug */,
+				AD734E2A2564B35C0086A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD734E2B2564B35C0086A365 /* Build configuration list for PBXNativeTarget "cognitive_dissonance_AR_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD734E2C2564B35C0086A365 /* Debug */,
+				AD734E2D2564B35C0086A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD734DF32564B3570086A365 /* Project object */;
+}
